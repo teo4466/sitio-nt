@@ -1,0 +1,22 @@
+uuid: 76f70d4c-1f15-493c-8bfc-cb359d6e2d73
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mitema_sass
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: mitema_sass_content
+theme: mitema_sass
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  provider: system
+  label_display: '0'
+visibility: {  }

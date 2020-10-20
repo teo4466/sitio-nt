@@ -1,0 +1,18 @@
+uuid: 0819d689-91c1-4145-9f04-ff56a4fa56aa
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Nuevo tipo'
+type: nuevo_tipo
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

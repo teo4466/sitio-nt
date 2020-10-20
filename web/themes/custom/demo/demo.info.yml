@@ -1,0 +1,12 @@
+name: Demo
+type: theme
+description: 'A demo theme for Drupal.'
+core: 8.x
+libraries:
+  - demo/global-styling
+  - demo/global-scripts
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer

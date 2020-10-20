@@ -1,0 +1,6 @@
+mi_demo.hello:
+  title: Hello Page
+  description: 'Hello Page menu link'
+  route_name: mi_demo.hello
+  menu_name: main
+  weight: 1

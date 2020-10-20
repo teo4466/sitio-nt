@@ -1,0 +1,5 @@
+name: Mi Demo
+type: module
+description: 'A demo theme for Drupal.'
+core: 8.x
+package: 'Mis Módulos'

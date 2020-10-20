@@ -1,0 +1,7 @@
+mi_demo.hello:
+  path: '/midemo/hello'
+  defaults:
+    _controller: '\Drupal\mi_demo\Controller\MiDemoController::hello'
+    _title: 'Hello Page'
+  requirements:
+    _permission: 'access content'

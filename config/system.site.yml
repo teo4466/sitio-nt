@@ -1,0 +1,14 @@
+uuid: 8cbc3be5-6059-4471-ad30-158530efb3c6
+name: 'Drupal 8 demo'
+mail: fedeanton@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

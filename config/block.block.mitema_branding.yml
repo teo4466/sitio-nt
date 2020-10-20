@@ -1,0 +1,25 @@
+uuid: 8d1e5ca9-1dbc-4ba2-b466-c0def858872e
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mitema
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: mitema_branding
+theme: mitema
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marca del sitio'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

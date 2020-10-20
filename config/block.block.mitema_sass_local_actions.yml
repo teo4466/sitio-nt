@@ -1,0 +1,20 @@
+uuid: 3eccc452-01ec-465c-97e1-f3aad9cb3379
+langcode: es
+status: true
+dependencies:
+  theme:
+    - mitema_sass
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: mitema_sass_local_actions
+theme: mitema_sass
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones principales de la administración'
+  provider: core
+  label_display: '0'
+visibility: {  }

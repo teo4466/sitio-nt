@@ -1,0 +1,22 @@
+uuid: 0a2f997d-b77e-4749-9823-3200d05dc1ba
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mitema
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: mitema_help
+theme: mitema
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  provider: help
+  label_display: '0'
+visibility: {  }
