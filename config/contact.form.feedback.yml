@@ -1,5 +1,5 @@
-uuid: 881c3940-b74e-469a-bc25-f3edbc6b5d4d
-langcode: es
+uuid: b979a8c2-140a-4a0c-b2ac-c25fe677d987
+langcode: en
 status: true
 dependencies: {  }
 _core:
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - fedeanton@gmail.com
+  - nt@test.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

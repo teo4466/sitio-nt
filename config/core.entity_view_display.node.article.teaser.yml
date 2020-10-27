@@ -1,5 +1,5 @@
-uuid: d4144162-dd8c-43e7-bc88-ad4e8d3632ba
-langcode: es
+uuid: 33b0c3d2-f26f-4ee0-bc46-adfb82fe44d8
+langcode: en
 status: true
 dependencies:
   config:
@@ -53,4 +53,3 @@ hidden:
   comment: true
   field_image: true
   field_tags: true
-  langcode: true

@@ -1,6 +1,6 @@
-uuid: 8cbc3be5-6059-4471-ad30-158530efb3c6
-name: 'Drupal 8 demo'
-mail: fedeanton@gmail.com
+uuid: fe30551b-110c-42c2-9ca2-626520fb5c41
+name: 'Norte Tecnológico'
+mail: nt@test.com
 slogan: ''
 page:
   403: ''
@@ -8,7 +8,7 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-langcode: es
-default_langcode: es
+langcode: en
+default_langcode: en
 _core:
   default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
