@@ -1,5 +1,5 @@
-uuid: de4356de-ecdb-456c-86e0-826efa202659
-langcode: es
+uuid: 4345c164-6fdf-49cf-ba84-c2f874270a7c
+langcode: en
 status: true
 dependencies:
   config:
@@ -21,5 +21,4 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden:
-  langcode: true
+hidden: {  }
