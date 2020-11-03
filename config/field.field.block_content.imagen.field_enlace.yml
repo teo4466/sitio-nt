@@ -1,0 +1,23 @@
+uuid: 08bab96d-98ee-40ca-861f-645a941de705
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.imagen
+    - field.storage.block_content.field_enlace
+  module:
+    - link
+id: block_content.imagen.field_enlace
+field_name: field_enlace
+entity_type: block_content
+bundle: imagen
+label: Enlace
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

@@ -806,3 +806,5 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = '../config';
+
+$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';

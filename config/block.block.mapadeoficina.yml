@@ -1,0 +1,31 @@
+uuid: c77ba41f-bffb-4fc1-ac1d-8e6f35b601db
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7168c018-c9ec-47c6-b971-980967ba09e7'
+  module:
+    - block_content
+    - system
+  theme:
+    - mitema_sass
+id: mapadeoficina
+theme: mitema_sass
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:7168c018-c9ec-47c6-b971-980967ba09e7'
+settings:
+  id: 'block_content:7168c018-c9ec-47c6-b971-980967ba09e7'
+  label: 'Mapa de oficina'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contacto
+    negate: false
+    context_mapping: {  }

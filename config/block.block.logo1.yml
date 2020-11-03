@@ -1,0 +1,31 @@
+uuid: 0183ad21-e1cc-4495-bd0e-f925d4cbef82
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:imagen:bb4a2f74-d3cf-497f-9a76-f291c9d26f23'
+  module:
+    - block_content
+    - system
+  theme:
+    - mitema_sass
+id: logo1
+theme: mitema_sass
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:bb4a2f74-d3cf-497f-9a76-f291c9d26f23'
+settings:
+  id: 'block_content:bb4a2f74-d3cf-497f-9a76-f291c9d26f23'
+  label: 'Logo 1'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/contacto"
+    negate: false
+    context_mapping: {  }

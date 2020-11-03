@@ -22,7 +22,10 @@
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
-        "drupal/examples": "^1.0"
+        "drupal/devel": "^4.0",
+        "drupal/examples": "^1.0",
+        "drupal/slick": "^2.2",
+        "kint-php/kint": "^3.3"
     },
     "conflict": {
         "drupal/drupal": "*"
