@@ -796,7 +796,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'drupal8',
+  'database' => 'sitio_nt',
   'username' => 'demo',
   'password' => 'demo',
   'prefix' => '',
