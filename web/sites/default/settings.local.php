@@ -1,7 +1,7 @@
 <?php
 
 $databases['default']['default'] = array (
-  'database' => 'drupal_nt_local',
+  'database' => 'drupal_nt',
   'username' => 'demo',
   'password' => 'demo',
   'prefix' => '',
