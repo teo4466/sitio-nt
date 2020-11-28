@@ -24,7 +24,7 @@ class ProtectedPrivates {
    * @param int|float $b
    *   Another number to add.
    *
-   * @return numeric
+   * @return int|float
    *   The sum of $a and $b.
    *
    * @throws \InvalidArgumentException
@@ -35,6 +35,7 @@ class ProtectedPrivates {
     return $adder->add($a, $b);
   }
 
+  // phpcs:disable
   /**
    * A simple addition method with validity checking.
    *
@@ -43,7 +44,7 @@ class ProtectedPrivates {
    * @param int|float $b
    *   Another number to add.
    *
-   * @return numeric
+   * @return int|float
    *   The sum of $a and $b.
    *
    * @throws \InvalidArgumentException
@@ -53,5 +54,6 @@ class ProtectedPrivates {
     $adder = new AddClass();
     return $adder->add($a, $b);
   }
+  // phpcs:enable
 
 }

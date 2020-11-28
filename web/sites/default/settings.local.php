@@ -2,8 +2,8 @@
 
 $databases['default']['default'] = array (
   'database' => 'drupal_nt',
-  'username' => 'demo',
-  'password' => 'demo',
+  'username' => 'root',
+  'password' => 'root',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
